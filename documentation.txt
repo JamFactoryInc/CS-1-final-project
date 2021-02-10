@@ -1,0 +1,24 @@
+I'm not sure what is supposed to go in here but I'm writing what I can think of.
+
+Everything in this program was written by me, Kieran, in a 12 hour timespan. The only planning I did was to look up a tutorial of how to play Solitaire.
+In terms of iteration, I've done this kind of task enough times to have built good habits.
+I just made new functions as I needed them, kept things consistent, and spent a lot of time making the code more expandable so future me would have an easier time.
+
+There are far too many functions to go over one at a time and they're pretty fragmented into their specific purposes, but I can cover the methods of what we were required to do.
+
+playSolitaire()  --  contains a for loop and some basic if statements that runs the game.
+
+isPrime() -- references a number to a list of prime numbers to determing if it's prime.
+
+boringGameLoop() -- uses a goto loop because that took the least amount of time to code.
+
+Card::printCardLayer() -- prints a slice of a card based on its value and suit.
+
+Card::printCard() -- calls the previous function in a for loop to print a whole card to the console.
+
+Deck::newDeck() -- initializes a bunch of variables and filles the deck vector with cards.
+
+Deck::shuffle() -- takes the deck and randomizes it using a for loop that iterates through and swaps every value with another from the vector.
+
+Deck::display2() -- prints the 4x13 rectangle of cards using Card::printCardLayer() and a 2d for loop.
+
